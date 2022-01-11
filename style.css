@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.primeira-pagina{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.logo{
+    width: 132px;
+    height: 132px;
+    margin-bottom: 65px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25vh;
+}
+
+.titulo{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4A5159;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.sub-titulo{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 55%;
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 10vh;
+}
+
+.ios{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    box-shadow: 2px 2px 2px 1px #2C9A83;
+}
+
+.mac{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 2px 1px #5763C5;
+}
+
+
+.sub-titulo2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 50%;
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+.segunda-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.computador{
+    position: relative;
+    right: 25vh;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.titulo-lista{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:#4A5159;
+    font-weight: 600;
+}
+
+.subtitulo-lista{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:hsl(201, 11%, 66%);
+    width: 55%;
+}
+
+.terceira-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.titulo2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4A5159;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.sub-titulo3{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 35%;
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.sub-titulo4{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+
+.icons{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.icone{
+    margin-bottom: 2vh;
+}
+
+.titulo-icons{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4A5159;
+    margin-bottom: 3vh;
+}
+
+.paragrafo-icons{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:hsl(201, 11%, 66%);
+    font-size: 18px;
+    width: 20vw;
+}
+
+.partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+    margin-bottom: 15vh;
+}
+
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-titulo-clipboard{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 37%;
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.fim-pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: hsl(0, 0%, 87%);
+}
+
+.logo-fim{
+    height: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    gap: 25px;
+}
+.linha1{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.social{
+    display: flex;
+    gap:25px;
+}
+
